@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.9.3.2.1", "1", "Identification & Risk Assessment", "EARoot/EA9/EA3/EA2/EA1/EA1094.htm", "4.png", "", "", "{5A5699FF-9048-4487-8044-15774FC9E122}", "Package");
+tocTab[tocTab.length] = new Array("0.9.3.2.2", "1", "Incident Investigation - Lost Time", "EARoot/EA9/EA3/EA2/EA2/EA1111.htm", "4.png", "", "", "{2C52BC48-7C45-4cce-A4D0-00894F794034}", "Package");
+tocTab[tocTab.length] = new Array("0.9.3.2.3", "1", "Incident Investigation – First Aid", "EARoot/EA9/EA3/EA2/EA3/EA1147.htm", "4.png", "", "", "{ABA8DD76-CCA6-403f-BAA9-A206296FBE6F}", "Package");
+tocTab[tocTab.length] = new Array("0.9.3.2.4", "1", "Incident Investigation – Non Lost Time", "EARoot/EA9/EA3/EA2/EA4/EA1174.htm", "4.png", "", "", "{BB921B99-CD82-41d1-AFF7-5337DECB52BD}", "Package");
+tocTab[tocTab.length] = new Array("0.9.3.2.5", "1", "pending", "EARoot/EA9/EA3/EA2/EA5/EA1201.htm", "4.png", "", "", "{A152A1A5-40F5-4ef4-BFB1-BAED177FDC25}", "Package");

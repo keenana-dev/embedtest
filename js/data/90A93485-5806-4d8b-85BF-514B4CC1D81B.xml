@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.8.4:1", "", "SAGE User Access", "EARoot/EA8/EA4/EA3137.html", "180.png", "498", "0", "", "Use Case diagram0","{077E0DA1-E073-42e6-87EB-8D9A5666CDA3}");
+tocTab[tocTab.length] = new Array("0.8.4:2", "", "Global Admininstrator", "EARoot/EA8/EA4/EA3142.html", "6.png", "E4984", "0", "", "Actor0","{D8D857A6-231C-4aed-A4A1-5C8C4E55EC59}");
+tocTab[tocTab.length] = new Array("0.8.4:3", "", "HR Functions", "EARoot/EA8/EA4/EA3143.html", "7.png", "E4992", "0", "", "UseCase0","{675D20D5-0963-4705-B010-B9E25DD3FDF0}");
+tocTab[tocTab.length] = new Array("0.8.4:4", "", "HR user", "EARoot/EA8/EA4/EA3144.html", "6.png", "E4986", "0", "", "Actor0","{D0D69E8B-DF15-4520-9247-EF1CAA41F396}");
+tocTab[tocTab.length] = new Array("0.8.4:5", "", "L0: Create and Maintain users", "EARoot/EA8/EA4/EA3145.html", "7.png", "E4990", "0", "", "UseCase0","{D190E1C6-262F-46c2-BE58-610FC3358DDB}");
+tocTab[tocTab.length] = new Array("0.8.4:6", "", "L1: Company Access (4 companies)", "EARoot/EA8/EA4/EA3146.html", "7.png", "E4987", "0", "", "UseCase0","{32EC1CB3-2E7A-4e4c-9788-6B3B4EF5F1D2}");
+tocTab[tocTab.length] = new Array("0.8.4:7", "", "L2: Goographical access (province/national)", "EARoot/EA8/EA4/EA3147.html", "7.png", "E4988", "0", "", "UseCase0","{8F52ED73-833B-4a4f-A962-FB9755D8F66D}");
+tocTab[tocTab.length] = new Array("0.8.4:8", "", "L3: Access type (View, Add, Edit)", "EARoot/EA8/EA4/EA3148.html", "7.png", "E4989", "0", "", "UseCase0","{6AF15BD3-8405-4af0-B41C-233D7B2F99B9}");
+tocTab[tocTab.length] = new Array("0.8.4:9", "", "Payroll Functions", "EARoot/EA8/EA4/EA3149.html", "7.png", "E4991", "0", "", "UseCase0","{95647DE2-4BF7-41a6-84F5-29E0C33DA2EF}");
+tocTab[tocTab.length] = new Array("0.8.4:10", "", "Payroll user", "EARoot/EA8/EA4/EA3150.html", "6.png", "E4985", "0", "", "Actor0","{07045465-247A-41d0-870C-2B255E9E85A7}");

@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.4.5:1", "", "IT", "EARoot/EA4/EA5/EA2558.html", "177.png", "408", "0", "", "Object diagram0","{04F5DC34-CFB9-4ed8-A747-9C40AE729816}");
+tocTab[tocTab.length] = new Array("0.4.5:2", "", "«org_role» *Authorised Person", "EARoot/EA4/EA5/EA2561.html", "25.png", "E3618", "0", "", "Object0","{4F2AEDA8-E5C6-4974-804D-21D2AF0C031E}");
+tocTab[tocTab.length] = new Array("0.4.5:3", "", "«org_role» Finance Manager ", "EARoot/EA4/EA5/EA2562.html", "25.png", "E3620", "0", "", "Object0","{8819A081-D743-46dc-822F-C2C72647A077}");
+tocTab[tocTab.length] = new Array("0.4.5:4", "", "«org_role» HOD IT Ops", "EARoot/EA4/EA5/EA2563.html", "25.png", "E3621", "0", "", "Object0","{1B2B7483-204F-43de-8145-690C59A428DA}");
+tocTab[tocTab.length] = new Array("0.4.5:5", "", "«org_unit» IT Support", "EARoot/EA4/EA5/EA2564.html", "25.png", "E3622", "0", "", "Object0","{42EA8667-1772-4bb1-9959-669797AE14EC}");
+tocTab[tocTab.length] = new Array("0.4.5:6", "", "«org_unit» Procurement", "EARoot/EA4/EA5/EA2565.html", "25.png", "E3619", "0", "", "Object0","{EF496CC2-AAC8-4060-B83C-BAD6F4BFA2E1}");
+tocTab[tocTab.length] = new Array("0.4.5:7", "", "«org_role» Role", "EARoot/EA4/EA5/EA2566.html", "25.png", "E3615", "0", "", "Object0","{1E173E65-74BC-4b20-A018-3D4EADA36860}");
+tocTab[tocTab.length] = new Array("0.4.5:8", "", "«org_role» Stock controller ", "EARoot/EA4/EA5/EA2567.html", "25.png", "E3623", "0", "", "Object0","{A2519D3A-0A9D-43ce-A44C-493C535200B8}");
+tocTab[tocTab.length] = new Array("0.4.5:9", "", "«org_unit» Supplier", "EARoot/EA4/EA5/EA2568.html", "25.png", "E3617", "0", "", "Object0","{8943A9D3-FB99-45f2-9840-B015F92CE4F1}");
+tocTab[tocTab.length] = new Array("0.4.5:10", "", "«org_unit» Unit", "EARoot/EA4/EA5/EA2569.html", "25.png", "E3616", "0", "", "Object0","{0E3D4FF9-D072-4864-86E0-57EB2B0C2247}");

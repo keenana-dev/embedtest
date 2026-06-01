@@ -1,0 +1,16 @@
+tocTab[tocTab.length] = new Array("0:1", "", "Meta Model", "EARoot/EA1.htm", "188.png", "12", "0", "", "Custom diagram0","{638A049F-5D08-44fc-9B52-95A733660D54}");
+tocTab[tocTab.length] = new Array("0:2", "", "«Activity» Activity", "EARoot/EA6.htm", "4C9380A5-0_Activity.png", "E45", "0", "", "Activity0","{DB2E8A10-89EE-4aa7-893D-6AB0D74C8C76}");
+tocTab[tocTab.length] = new Array("0:3", "", "«application» Application", "EARoot/EA7.htm", "10.png", "E47", "0", "", "Component0","{0D082217-65FE-4eb7-BFF8-D70225C3256F}");
+tocTab[tocTab.length] = new Array("0:4", "", "«datastore» Cloud Service", "EARoot/EA8.htm", "25.png", "E53", "0", "", "Object0","{893D299F-C9DB-46eb-84CD-EBF90D0ECD06}");
+tocTab[tocTab.length] = new Array("0:5", "", "«company» Company", "EARoot/EA9.htm", "25.png", "E67", "0", "", "Object0","{A894D185-8C25-41ba-9B46-4EB38C8A3380}");
+tocTab[tocTab.length] = new Array("0:6", "", "«org_unit» Department/Area", "EARoot/EA10.htm", "25.png", "E50", "0", "", "Object0","{D6DE7C2B-EFAF-4061-9045-283906DF5B64}");
+tocTab[tocTab.length] = new Array("0:7", "", "Device", "EARoot/EA11.htm", "191.png", "E49", "0", "", "Device0","{2FA2D5ED-9F48-4179-8F25-0F9B0BCEA2E5}");
+tocTab[tocTab.length] = new Array("0:8", "", "«mission» Mission", "EARoot/EA12.htm", "25.png", "E34", "0", "", "Object0","{A26E1347-8B7B-4992-9222-B823691115C9}");
+tocTab[tocTab.length] = new Array("0:9", "", "«process» Process", "EARoot/EA14.htm", "21.png", "E63", "0", "", "Activity0","{478D5583-6C5D-4cf7-9BDC-8AF951C3DBDF}");
+tocTab[tocTab.length] = new Array("0:10", "", "«org_role» Role", "EARoot/EA16.htm", "25.png", "E51", "0", "", "Object0","{226A8F1B-7203-4b9e-824D-38EB20B8131B}");
+tocTab[tocTab.length] = new Array("0:11", "", "«strategy» Strategy", "EARoot/EA17.htm", "25.png", "E33", "0", "", "Object0","{1913023C-983B-49fc-AFE1-0AF5C68604CC}");
+tocTab[tocTab.length] = new Array("0:12", "", "«value_chain» Value", "EARoot/EA20.htm", "21.png", "E41", "0", "", "Activity0","{D64BCBE3-2CBF-43e3-81AF-08962F8BEAF9}");
+tocTab[tocTab.length] = new Array("0:13", "", "«vision» Vision", "EARoot/EA21.htm", "25.png", "E32", "0", "", "Object0","{37990556-C5AB-49b0-8BC4-003FB98323DF}");
+tocTab[tocTab.length] = new Array("0:14", "", "«Mission» MIssion", "EARoot/EA22.htm", "25.png", "E39", "0", "", "Object0","{8983892F-EECA-411a-B852-C0F644475380}");
+tocTab[tocTab.length] = new Array("0:15", "", "«Strategy» Strategy", "EARoot/EA23.htm", "25.png", "E38", "0", "", "Object0","{F308C83A-00B7-477c-BB46-BBBB8F5DB217}");
+tocTab[tocTab.length] = new Array("0:16", "", "«Vision» Vision", "EARoot/EA24.htm", "25.png", "E37", "0", "", "Object0","{954369DF-947F-4ac8-8590-29602710A4C5}");

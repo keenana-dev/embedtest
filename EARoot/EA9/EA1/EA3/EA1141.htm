@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Use cases</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Use cases </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.htm">Model</a> / <a href="../../EA1074.htm">In progress Work</a> / <a href="../EA1082.htm">Aviation Digitisation of Forms</a> / <a href="EA1143.htm">Use cases</a> / <a href="EA1141.htm">Use cases</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/180.png" alt="Diagram"/> <a href="EA1141.htm">Use cases</a></li>
+<li><img src="../../../../images/6.png" alt="Actor"/> <a href="EA1146.htm">Approver</a></li>
+<li><img src="../../../../images/6.png" alt="Actor"/> <a href="EA1148.htm">Authorised user</a></li>
+<li><img src="../../../../images/6.png" alt="Actor"/> <a href="EA1153.htm">Managers</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1144.htm">Access Management (compounded UC)</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1145.htm">Approve/Decline form</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1147.htm">Archive forms (data)</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1149.htm">Complete Digital form</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1150.htm">Create and publish digital form</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1151.htm">Create and publish manuals</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1152.htm">Digitally sign forms</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1154.htm">Populate reports</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1155.htm">Populate secondary form</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1156.htm">Pre-populate forms</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1157.htm">Push notification</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1158.htm">update audit trail (history)</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1159.htm">Update forms</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1160.htm">Update of Delete manual</a></li>
+<li><img src="../../../../images/7.png" alt="UseCase"/> <a href="EA1161.htm">View Manuals</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA1142.png" usemap="#EA1142" border="0" />
+
+<MAP NAME="EA1142">
+<area shape="rect" coords="658,592,703,682" href="EA1153.htm" target="_self">
+<area shape="rect" coords="658,711,703,801" href="EA1146.htm" target="_self">
+<area shape="rect" coords="45,351,90,441" href="EA1148.htm" target="_self">
+<area shape="rect" coords="201,851,306,921" href="EA1160.htm" target="_self">
+<area shape="rect" coords="200,250,305,320" href="EA1158.htm" target="_self">
+<area shape="rect" coords="414,10,519,80" href="EA1157.htm" target="_self">
+<area shape="rect" coords="414,730,519,800" href="EA1145.htm" target="_self">
+<area shape="rect" coords="201,490,306,560" href="EA1147.htm" target="_self">
+<area shape="rect" coords="414,130,519,200" href="EA1152.htm" target="_self">
+<area shape="rect" coords="414,490,519,560" href="EA1156.htm" target="_self">
+<area shape="rect" coords="414,611,519,681" href="EA1154.htm" target="_self">
+<area shape="rect" coords="628,250,733,320" href="EA1159.htm" target="_self">
+<area shape="rect" coords="201,730,306,800" href="EA1151.htm" target="_self">
+<area shape="rect" coords="201,611,306,681" href="EA1161.htm" target="_self">
+<area shape="rect" coords="414,370,519,440" href="EA1155.htm" target="_self">
+<area shape="rect" coords="200,131,305,201" href="EA1144.htm" target="_self">
+<area shape="rect" coords="414,250,519,320" href="EA1150.htm" target="_self">
+<area shape="rect" coords="200,370,305,440" href="EA1149.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Use cases : Use Case diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2024/05/14 20:41:20</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">2024/05/14 21:02:03</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">terti</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{F41A3373-EF22-4265-8C8E-435ACC02CCCF}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

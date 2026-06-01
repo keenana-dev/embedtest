@@ -1,0 +1,12 @@
+tocTab[tocTab.length] = new Array("0.8.1", "1", "Alumni Management & Fundraising", "EARoot/EA8/EA1/EA2662.html", "4.png", "", "", "{25DD18AB-9755-4f72-836F-83D439CE449F}", "Package");
+tocTab[tocTab.length] = new Array("0.8.2", "1", "Kishugu Training Academy", "EARoot/EA8/EA2/EA2729.html", "4.png", "", "", "{CF92E89E-0575-432e-9E4A-D0DC52AC9B32}", "Package");
+tocTab[tocTab.length] = new Array("0.8.3", "1", "New Dispatch", "EARoot/EA8/EA3/EA2807.html", "4.png", "", "", "{A63E4EFD-F54F-433a-9025-E386832A2DF1}", "Package");
+tocTab[tocTab.length] = new Array("0.8.4", "1", "SAGE User Access", "EARoot/EA8/EA4/EA3139.html", "4.png", "", "", "{90A93485-5806-4d8b-85BF-514B4CC1D81B}", "Package");
+tocTab[tocTab.length] = new Array("0.8.5", "1", "SCM & FInanace BRS", "EARoot/EA8/EA5/EA3151.html", "4.png", "", "", "{9EBCC253-087E-4f53-8E29-E251174C245F}", "Package");
+tocTab[tocTab.length] = new Array("0.8.6", "1", "IT - DocWise Processes", "EARoot/EA8/EA6/EA3536.html", "4.png", "", "", "{5EB83A4E-FC6E-4e82-BF75-11BB412F5978}", "Package");
+tocTab[tocTab.length] = new Array("0.8.7", "1", "Aviation Digitisation of Forms", "EARoot/EA8/EA7/EA3790.html", "4.png", "", "", "{81C4FEFF-7C2C-4887-97C5-FBB4FCCD72A6}", "Package");
+tocTab[tocTab.length] = new Array("0.8.8", "1", "Mobile Phone Asset Management", "EARoot/EA8/EA8/EA3892.html", "4.png", "", "", "{C1F9C14D-1EDE-4c84-BC1E-D9BE0C93915A}", "Package");
+tocTab[tocTab.length] = new Array("0.8.9", "1", "Performance Management", "EARoot/EA8/EA9/EA4044.html", "4.png", "", "", "{28129160-BF82-451e-8DF7-7B0222ED7C12}", "Package");
+tocTab[tocTab.length] = new Array("0.8.10", "1", "Video Archiving", "EARoot/EA8/EA10/EA4078.html", "4.png", "", "", "{5AF80384-F3D5-42ae-8277-B9DF65607CB1}", "Package");
+tocTab[tocTab.length] = new Array("0.8.11", "1", "SCM", "EARoot/EA8/EA11/EA4230.html", "4.png", "", "", "{07E48394-8279-45b9-9202-4C3D36867730}", "Package");
+tocTab[tocTab.length] = new Array("0.8.12", "1", "OHS", "EARoot/EA8/EA12/EA4274.html", "4.png", "", "", "{6F5CD915-AD16-4c76-AAC0-88E087A5CEC4}", "Package");

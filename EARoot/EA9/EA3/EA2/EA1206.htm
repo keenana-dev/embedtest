@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Typical Performance Management</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Typical Performance Management </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.htm">Model</a> / <a href="../../EA1075.htm">In progress Work</a> / <a href="../EA1193.htm">Performance Management</a> / <a href="EA1208.htm">TypicalFlow</a> / <a href="EA1209.htm">TypicalFlow</a> / <a href="EA1206.htm">Typical Performance Management</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/189.png" alt="Diagram"/> <a href="EA1206.htm">Typical Performance Management</a></li>
+<li><img src="../../../../images/116.png" alt="ActivityPartition"/> <a href="EA1212.htm">Performance Management*</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA1207.png" usemap="#EA1207" border="0" />
+
+<MAP NAME="EA1207">
+<area shape="rect" coords="1534,17,1614,93" href="EA1216.htm" target="_self">
+<area shape="rect" coords="1223,244,1333,304" href="EA1231.htm" target="_self">
+<area shape="rect" coords="348,25,458,85" href="EA1218.htm" target="_self">
+<area shape="rect" coords="698,25,808,85" href="EA1222.htm" target="_self">
+<area shape="rect" coords="291,360,476,418" href="EA1211.htm" target="_self">
+<area shape="rect" coords="10,360,266,483" href="EA1210.htm" target="_self">
+<area shape="rect" coords="1573,258,1603,288" href="EA1232.htm" target="_self">
+<area shape="rect" coords="1398,243,1508,303" href="EA1233.htm" target="_self">
+<area shape="rect" coords="1263,40,1293,70" href="EA1221.htm" target="_self">
+<area shape="rect" coords="1048,128,1158,188" href="EA1228.htm" target="_self">
+<area shape="rect" coords="1048,25,1158,85" href="EA1219.htm" target="_self">
+<area shape="rect" coords="873,25,983,85" href="EA1202.htm" target="_self">
+<area shape="rect" coords="722,143,752,173" href="EA1226.htm" target="_self">
+<area shape="rect" coords="523,128,633,188" href="EA1227.htm" target="_self">
+<area shape="rect" coords="523,25,633,85" href="EA1217.htm" target="_self">
+<area shape="rect" coords="173,25,283,85" href="EA1204.htm" target="_self">
+<area shape="rect" coords="78,40,108,70" href="EA1224.htm" target="_self">
+<area shape="rect" coords="30,216,1632,332" href="EA1214.htm" target="_self">
+<area shape="rect" coords="30,100,1632,216" href="EA1213.htm" target="_self">
+<area shape="rect" coords="30,10,1632,100" href="EA1215.htm" target="_self">
+<area shape="rect" coords="10,10,1632,332" href="EA1212.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Typical Performance Management : Business Process diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2024/07/01 07:46:04</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">2024/08/13 14:09:49</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">terti</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{16E3841B-891F-434d-81F4-5D6D73FD772F}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Time and Attendance</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Time and Attendance </h1>
+			<!-- <img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../index.htm">Model</a> / <a href="EA81.htm">TO-BE Processes</a> / <a href="EA82.htm">Human Capital Management</a> / <a href="EA93.htm">Time and Attendance including payroll (wage employees)</a> / <a href="EA75.htm">Time and Attendance</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../images/189.png" alt="Diagram"/> <a href="EA75.htm">Time and Attendance</a></li>
+<li><img src="../../images/116.png" alt="ActivityPartition"/> <a href="EA114.htm">WoF Human Capital Management</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA76.png" usemap="#EA76" border="0" />
+
+<MAP NAME="EA76">
+<area shape="rect" coords="786,904,828,946" href="EA299.htm" target="_self">
+<area shape="rect" coords="227,747,337,807" href="EA138.htm" target="_self">
+<area shape="rect" coords="1154,1006,1264,1066" href="EA135.htm" target="_self">
+<area shape="rect" coords="610,895,720,955" href="EA55.htm" target="_self">
+<area shape="rect" coords="427,634,537,694" href="EA139.htm" target="_self">
+<area shape="rect" coords="441,904,483,946" href="EA298.htm" target="_self">
+<area shape="rect" coords="234,895,344,955" href="EA300.htm" target="_self">
+<area shape="rect" coords="917,421,959,463" href="EA132.htm" target="_self">
+<area shape="rect" coords="1051,421,1186,496" href="EA57.htm" target="_self">
+<area shape="rect" coords="316,25,426,85" href="EA296.htm" target="_self">
+<area shape="rect" coords="1348,1029,1378,1059" href="EA136.htm" target="_self">
+<area shape="rect" coords="964,1013,1074,1073" href="EA137.htm" target="_self">
+<area shape="rect" coords="755,1094,865,1154" href="EA131.htm" target="_self">
+<area shape="rect" coords="767,535,877,595" href="EA134.htm" target="_self">
+<area shape="rect" coords="226,634,336,694" href="EA141.htm" target="_self">
+<area shape="rect" coords="70,634,180,694" href="EA140.htm" target="_self">
+<area shape="rect" coords="706,421,816,481" href="EA133.htm" target="_self">
+<area shape="rect" coords="708,327,818,387" href="EA130.htm" target="_self">
+<area shape="rect" coords="704,227,814,287" href="EA129.htm" target="_self">
+<area shape="rect" coords="512,231,622,291" href="EA128.htm" target="_self">
+<area shape="rect" coords="511,115,621,175" href="EA117.htm" target="_self">
+<area shape="rect" coords="316,115,426,175" href="EA116.htm" target="_self">
+<area shape="rect" coords="138,114,248,174" href="EA115.htm" target="_self">
+<area shape="rect" coords="65,129,95,159" href="EA118.htm" target="_self">
+<area shape="rect" coords="30,856,1411,993" href="EA119.htm" target="_self">
+<area shape="rect" coords="30,10,1411,107" href="EA120.htm" target="_self">
+<area shape="rect" coords="30,993,1411,1083" href="EA125.htm" target="_self">
+<area shape="rect" coords="30,1083,1411,1163" href="EA122.htm" target="_self">
+<area shape="rect" coords="30,614,1411,856" href="EA126.htm" target="_self">
+<area shape="rect" coords="30,400,1411,614" href="EA124.htm" target="_self">
+<area shape="rect" coords="30,312,1411,400" href="EA123.htm" target="_self">
+<area shape="rect" coords="30,198,1411,312" href="EA127.htm" target="_self">
+<area shape="rect" coords="30,107,1411,198" href="EA121.htm" target="_self">
+<area shape="rect" coords="10,10,1411,1163" href="EA114.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Time and Attendance : Business Process diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2024/02/19 17:29:54</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">2024/04/08 22:18:05</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">terti</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{27F386CD-4D70-405b-922D-E12A43DF4F46}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

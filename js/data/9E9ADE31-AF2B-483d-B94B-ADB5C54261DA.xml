@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.8.8.1:1", "", "Context", "EARoot/EA8/EA8/EA1/EA4036.html", "178.png", "446", "0", "", "Component diagram0","{B9485583-809E-410a-B364-5B8FAE6BDC98}");
+tocTab[tocTab.length] = new Array("0.8.8.1:2", "", "Asset Management System", "EARoot/EA8/EA8/EA1/EA4040.html", "10.png", "E4275", "0", "", "Component0","{69C37707-4CA5-46ed-9F36-BB0B91F4E884}");
+tocTab[tocTab.length] = new Array("0.8.8.1:3", "", "«Entity» Employee/Manager", "EARoot/EA8/EA8/EA1/EA4041.html", "10.png", "E4274", "0", "", "Component0","{F660F03F-D13F-460a-A88A-FC89F6EBCA8D}");
+tocTab[tocTab.length] = new Array("0.8.8.1:4", "", "«Entity» IT/Finance", "EARoot/EA8/EA8/EA1/EA4042.html", "10.png", "E4277", "0", "", "Component0","{98468C2A-4586-4263-A8E5-2CBBE683EAD9}");
+tocTab[tocTab.length] = new Array("0.8.8.1:5", "", "«Entity» Service Provider", "EARoot/EA8/EA8/EA1/EA4043.html", "10.png", "E4276", "0", "", "Component0","{F2AA5052-ADCF-494f-A048-DFD3FAF12BA0}");

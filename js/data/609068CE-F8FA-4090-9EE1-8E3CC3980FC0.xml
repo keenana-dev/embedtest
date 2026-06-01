@@ -1,0 +1,17 @@
+tocTab[tocTab.length] = new Array("0.8.2.1.3:1", "", "Use cases", "EARoot/EA8/EA2/EA1/EA3/EA2788.html", "180.png", "623", "0", "", "Use Case diagram0","{12217C97-645D-478b-AAD7-BF3FADED6F70}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:2", "", "Client", "EARoot/EA8/EA2/EA1/EA3/EA2791.html", "6.png", "E6855", "0", "", "Actor0","{12946721-8688-4846-B832-3827B60F75E9}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:3", "", "Configure Notifications", "EARoot/EA8/EA2/EA1/EA3/EA2792.html", "7.png", "E6859", "0", "", "UseCase0","{D599739E-D429-410e-BEE9-EAEBFEDAFD9B}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:4", "", "Configure Reports / Dashboards", "EARoot/EA8/EA2/EA1/EA3/EA2793.html", "7.png", "E6860", "0", "", "UseCase0","{AD50DFAD-C471-4a55-96D5-A9EA1269E257}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:5", "", "Configure workflows", "EARoot/EA8/EA2/EA1/EA3/EA2794.html", "7.png", "E6858", "0", "", "UseCase0","{35A34B68-A6FF-41b6-9B1E-1E11794B070B}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:6", "", "Kishugu Finanace", "EARoot/EA8/EA2/EA1/EA3/EA2795.html", "6.png", "E6856", "0", "", "Actor0","{A370B3B9-EBF0-478b-B87A-85E5CBDC90A4}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:7", "", "Kishugu IT", "EARoot/EA8/EA2/EA1/EA3/EA2796.html", "6.png", "E6857", "0", "", "Actor0","{B4E1352B-9030-4483-9F71-569EEAFE2BB5}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:8", "", "KTA User", "EARoot/EA8/EA2/EA1/EA3/EA2797.html", "6.png", "E6854", "0", "", "Actor0","{673384FB-1691-46bd-8936-EB31B582E4C2}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:9", "", "Manage Campaing", "EARoot/EA8/EA2/EA1/EA3/EA2798.html", "7.png", "E6864", "0", "", "UseCase0","{7C6C8008-2AA1-4d91-8575-AC8E6A927DE8}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:10", "", "Manage Clients", "EARoot/EA8/EA2/EA1/EA3/EA2799.html", "7.png", "E6861", "0", "", "UseCase0","{802C44DF-7DB1-403e-8F1C-6807ADCEE09D}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:11", "", "Manage Deals", "EARoot/EA8/EA2/EA1/EA3/EA2800.html", "7.png", "E6863", "0", "", "UseCase0","{05C8DAEC-432C-4479-84F4-D065CDD6CF38}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:12", "", "Manage Leads", "EARoot/EA8/EA2/EA1/EA3/EA2801.html", "7.png", "E6862", "0", "", "UseCase0","{4CE4A30C-2BB4-477a-A942-8BB7E0440612}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:13", "", "Manage notification templates", "EARoot/EA8/EA2/EA1/EA3/EA2802.html", "7.png", "E6869", "0", "", "UseCase0","{E505CC23-E74C-4715-9E8B-95880BB19CE7}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:14", "", "Record History (audit trail)", "EARoot/EA8/EA2/EA1/EA3/EA2803.html", "7.png", "E6865", "0", "", "UseCase0","{69F83E86-7E20-4a31-B0E7-E7783711025D}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:15", "", "Send notifications", "EARoot/EA8/EA2/EA1/EA3/EA2804.html", "7.png", "E6867", "0", "", "UseCase0","{47481ED5-4F99-421d-8E8A-9454F60BD6A4}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:16", "", "Send/Access Reports and Dashboards <br />", "EARoot/EA8/EA2/EA1/EA3/EA2805.html", "7.png", "E6868", "0", "", "UseCase0","{F37850BC-EF9E-40af-AC28-7D585E3A70B6}");
+tocTab[tocTab.length] = new Array("0.8.2.1.3:17", "", "Store digital assets", "EARoot/EA8/EA2/EA1/EA3/EA2806.html", "7.png", "E6866", "0", "", "UseCase0","{D6504821-94D1-49f8-A208-7D6064416BD1}");

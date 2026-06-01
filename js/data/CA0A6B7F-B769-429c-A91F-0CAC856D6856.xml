@@ -1,0 +1,12 @@
+tocTab[tocTab.length] = new Array("0.8.5.3:1", "", "Processes", "EARoot/EA8/EA5/EA3/EA3467.html", "183.png", "556", "0", "", "Statechart diagram0","{5FF2C4E6-936A-4f95-BC58-4FA85FBB32E1}");
+tocTab[tocTab.length] = new Array("0.8.5.3:2", "", "approve?", "EARoot/EA8/EA5/EA3/EA3470.html", "56.png", "E5929", "0", "", "StateNode0","{35003278-7C3A-4718-93E1-DEED35B6A05A}");
+tocTab[tocTab.length] = new Array("0.8.5.3:3", "", "approved", "EARoot/EA8/EA5/EA3/EA3471.html", "20.png", "E5930", "0", "", "State0","{C5130F53-2078-4802-9449-90B89C3D8002}");
+tocTab[tocTab.length] = new Array("0.8.5.3:4", "", "budget/Limit declined", "EARoot/EA8/EA5/EA3/EA3472.html", "20.png", "E5925", "0", "", "State0","{2961F09A-E29C-4fdc-ABB8-FED0BFE20BDC}");
+tocTab[tocTab.length] = new Array("0.8.5.3:5", "", "budget?", "EARoot/EA8/EA5/EA3/EA3473.html", "56.png", "E5928", "0", "", "StateNode0","{296C018A-D2AE-48b6-B692-027B44EA7183}");
+tocTab[tocTab.length] = new Array("0.8.5.3:6", "", "Budget\\Limit approved", "EARoot/EA8/EA5/EA3/EA3474.html", "20.png", "E5924", "0", "", "State0","{8A301BE0-FEAA-4775-A200-E922291F4353}");
+tocTab[tocTab.length] = new Array("0.8.5.3:7", "", "Closed", "EARoot/EA8/EA5/EA3/EA3475.html", "69.png", "E5933", "0", "", "StateNode0","{FE05FCDD-BB3D-489d-A0D7-83A9F4DA5E7E}");
+tocTab[tocTab.length] = new Array("0.8.5.3:8", "", "Created", "EARoot/EA8/EA5/EA3/EA3476.html", "20.png", "E5921", "0", "", "State0","{1DC458D0-A802-46e7-87D2-D34D829DBEE4}");
+tocTab[tocTab.length] = new Array("0.8.5.3:9", "", "declined", "EARoot/EA8/EA5/EA3/EA3477.html", "20.png", "E5931", "0", "", "State0","{5C62AD4D-4C23-4d62-9397-C4C3C3219B18}");
+tocTab[tocTab.length] = new Array("0.8.5.3:10", "", "Escalated for special approval ", "EARoot/EA8/EA5/EA3/EA3478.html", "20.png", "E5926", "0", "", "State0","{51E6F981-9E4F-4fe0-9AAC-288EBCF7386A}");
+tocTab[tocTab.length] = new Array("0.8.5.3:11", "", "Initial", "EARoot/EA8/EA5/EA3/EA3479.html", "68.png", "E5920", "0", "", "StateNode0","{5148229E-A2C5-4376-ADD3-A576AC9E6021}");
+tocTab[tocTab.length] = new Array("0.8.5.3:12", "", "Processed/Issued", "EARoot/EA8/EA5/EA3/EA3480.html", "20.png", "E5932", "0", "", "State0","{3AF80BCD-6BE3-4cfb-AA04-32B949EFDC2D}");

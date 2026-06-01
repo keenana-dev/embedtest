@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Organization</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Organization </h1>
+			<!-- <img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../index.htm">Model</a> / <a href="EA1873.htm">People</a> / <a href="EA1871.htm">Organization</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../images/4.png" alt="Package"/> <a href="./EA1/EA1903.htm">Aviation</a></li>
+<li><img src="../../images/4.png" alt="Package"/> <a href="./EA2/EA1931.htm">Dispatch</a></li>
+<li><img src="../../images/4.png" alt="Package"/> <a href="./EA3/EA1934.htm">Human Capital Management</a></li>
+<li><img src="../../images/4.png" alt="Package"/> <a href="./EA4/EA1951.htm">IT</a></li>
+<li><img src="../../images/4.png" alt="Package"/> <a href="./EA5/EA1963.htm">Working on Fire Operations</a></li>
+<li><img src="../../images/177.png" alt="Diagram"/> <a href="EA1871.htm">Organization</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1876.htm">Aviation</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1878.htm">Chief Financial Officer</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1879.htm">Chief Information Officer</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1881.htm">Finance Manager</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1882.htm">Fleet</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1883.htm">HR Officer</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1885.htm">Human Resource Executive</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1887.htm">IT officer</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1888.htm">Kishugu Holdings</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1889.htm">Marketing and Comms officer</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1890.htm">Marketing and Communications Executive</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1891.htm">National Operations Manager</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1892.htm">Operations and Ocupational Health and Safety Executive</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1893.htm">Risk Audit and Compliance</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1894.htm">Secretariat</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1895.htm">Senior Finanace Officers</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1896.htm">Training</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1897.htm">WoF Kishugu JV</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA1898.htm">Working on FIre</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA1872.png" usemap="#EA1872" border="0" />
+
+<MAP NAME="EA1872">
+<area shape="rect" coords="404,501,492,517" href="./EA3/EA1932.htm" target="_self">
+<area shape="rect" coords="583,557,673,607" href="EA1889.htm" target="_self">
+<area shape="rect" coords="391,556,481,606" href="EA1883.htm" target="_self">
+<area shape="rect" coords="227,530,317,580" href="EA1887.htm" target="_self">
+<area shape="rect" coords="1126,440,1247,499" href="EA1892.htm" target="_self">
+<area shape="rect" coords="940,440,1061,499" href="EA1891.htm" target="_self">
+<area shape="rect" coords="754,440,875,499" href="EA1893.htm" target="_self">
+<area shape="rect" coords="568,440,689,541" href="EA1890.htm" target="_self">
+<area shape="rect" coords="383,440,504,528" href="EA1885.htm" target="_self">
+<area shape="rect" coords="196,440,317,499" href="EA1879.htm" target="_self">
+<area shape="rect" coords="718,113,889,172" href="EA1888.htm" target="_self">
+<area shape="rect" coords="41,614,131,664" href="EA1895.htm" target="_self">
+<area shape="rect" coords="41,530,131,580" href="EA1881.htm" target="_self">
+<area shape="rect" coords="727,319,898,378" href="EA1898.htm" target="_self">
+<area shape="rect" coords="717,216,888,275" href="EA1896.htm" target="_self">
+<area shape="rect" coords="371,319,542,378" href="EA1882.htm" target="_self">
+<area shape="rect" coords="371,216,542,275" href="EA1876.htm" target="_self">
+<area shape="rect" coords="542,10,713,69" href="EA1897.htm" target="_self">
+<area shape="rect" coords="452,118,542,168" href="EA1894.htm" target="_self">
+<area shape="rect" coords="10,440,131,499" href="EA1878.htm" target="_self">
+<area shape="rect" coords="10,705,1838,1977" href="EA1875.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Organization : Object diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2023/07/20 06:43:33</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">2025/01/28 09:16:34</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">terti</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{54BB6AD6-79B7-47b3-954B-2EBACE2816F4}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Organization&lt;br/&gt;</div>
+
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

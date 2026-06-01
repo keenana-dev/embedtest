@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Ground Dispatch</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Ground Dispatch </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.html">Model</a> / <a href="../../EA2342.html">In progress Work</a> / <a href="../EA2423.html">New Dispatch</a> / <a href="EA2596.html">Ground</a> / <a href="EA2597.html">Ground Dispatch</a> / <a href="EA2586.html">Ground Dispatch</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/189.png" alt="Diagram"/> <a href="EA2586.html">Ground Dispatch</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="EA2711.html">Dispatch - Ground Process Admin</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="EA2712.html">Dispatch Ground Start of Day Activities</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="EA2713.html">Dispatch Ground: Call Take Process</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="EA2714.html">Establishing a Dispatch Center</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="EA2715.html">Ground Dispatch procedure</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="EA2716.html">Ground Emergency Response Communication</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="EA2717.html">Morning Report (MR)</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="EA2718.html">Recruitment of Dispatchers</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA2587.png" usemap="#EA2587" border="0" />
+
+<MAP NAME="EA2587">
+<area shape="rect" coords="204,133,339,208" href="EA2594.html" target="_self">
+<area shape="rect" coords="398,256,533,331" href="EA2592.html" target="_self">
+<area shape="rect" coords="786,256,921,331" href="EA2590.html" target="_self">
+<area shape="rect" coords="786,133,921,208" href="EA2588.html" target="_self">
+<area shape="rect" coords="10,133,145,208" href="EA2584.html" target="_self">
+<area shape="rect" coords="592,133,727,208" href="EA2582.html" target="_self">
+<area shape="rect" coords="398,133,533,208" href="EA2580.html" target="_self">
+<area shape="rect" coords="786,10,921,85" href="EA2578.html" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Ground Dispatch : Business Process diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2025/08/27 12:13:11</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">2025/08/27 12:35:57</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">terti</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{E4A4A5BF-3DAC-4957-A63C-2556ED4A69A3}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

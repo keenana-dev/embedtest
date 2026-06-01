@@ -1,0 +1,14 @@
+tocTab[tocTab.length] = new Array("0.4.6:1", "", "Supply Chain Management", "EARoot/EA4/EA6/EA2570.html", "177.png", "574", "0", "", "Object diagram0","{212CBD55-A2C4-41c0-B85D-6BDC119C3822}");
+tocTab[tocTab.length] = new Array("0.4.6:2", "", "«org_unit» Finance Department", "EARoot/EA4/EA6/EA2573.html", "25.png", "E6139", "0", "", "Object0","{3D1F6A15-0848-43ef-BC59-CAA583770B85}");
+tocTab[tocTab.length] = new Array("0.4.6:3", "", "«org_role» PPC Committee ", "EARoot/EA4/EA6/EA2574.html", "25.png", "E6142", "0", "", "Object0","{657B2022-7991-4b75-B02F-2B2495929317}");
+tocTab[tocTab.length] = new Array("0.4.6:4", "", "«org_unit» SCM Bid Adjudication Committee", "EARoot/EA4/EA6/EA2575.html", "25.png", "E6146", "0", "", "Object0","{40430B65-6A31-4784-97A7-A2F755B09C92}");
+tocTab[tocTab.length] = new Array("0.4.6:5", "", "«org_role» SCM Buyer", "EARoot/EA4/EA6/EA2576.html", "25.png", "E6140", "0", "", "Object0","{1D390D91-60AB-4e8e-BC40-9D78E2C05A65}");
+tocTab[tocTab.length] = new Array("0.4.6:6", "", "«org_unit» SCM Department", "EARoot/EA4/EA6/EA2577.html", "25.png", "E6144", "0", "", "Object0","{DA0E21D7-C6A8-4608-974A-9E783E132275}");
+tocTab[tocTab.length] = new Array("0.4.6:7", "", "«org_unit» SCM Evaluation Committees", "EARoot/EA4/EA6/EA2578.html", "25.png", "E6145", "0", "", "Object0","{A2640CE9-46BF-4fc6-B6B3-81D68DCE5FC2}");
+tocTab[tocTab.length] = new Array("0.4.6:8", "", "«org_role» SCM General Manager", "EARoot/EA4/EA6/EA2579.html", "25.png", "E6138", "0", "", "Object0","{2C00EF2E-4339-420c-9F8C-CB47FD025C26}");
+tocTab[tocTab.length] = new Array("0.4.6:9", "", "«org_unit» SCM Legal services", "EARoot/EA4/EA6/EA2580.html", "25.png", "E6147", "0", "", "Object0","{29ACFBD2-F412-4e9d-B9BA-F30B4C0C75D2}");
+tocTab[tocTab.length] = new Array("0.4.6:10", "", "«org_role» SCM Line Manager", "EARoot/EA4/EA6/EA2581.html", "25.png", "E6136", "0", "", "Object0","{4B0282AC-B797-4e3b-82A5-7A91302386EC}");
+tocTab[tocTab.length] = new Array("0.4.6:11", "", "«org_role» SCM Managing Director ", "EARoot/EA4/EA6/EA2582.html", "25.png", "E6143", "0", "", "Object0","{D13519D8-6B58-4054-830F-F48A7502940C}");
+tocTab[tocTab.length] = new Array("0.4.6:12", "", "«org_role» SCM Supplier ", "EARoot/EA4/EA6/EA2583.html", "25.png", "E6141", "0", "", "Object0","{5F9B6013-2361-439a-82B5-3A020637E05A}");
+tocTab[tocTab.length] = new Array("0.4.6:13", "", "«org_role» SCM User", "EARoot/EA4/EA6/EA2584.html", "25.png", "E6135", "0", "", "Object0","{B569801B-4485-49ff-B48A-EBF15B28BEEE}");
+tocTab[tocTab.length] = new Array("0.4.6:14", "", "«org_role» Stock Controller", "EARoot/EA4/EA6/EA2585.html", "25.png", "E6137", "0", "", "Object0","{E03B682D-EE10-4203-B564-8E1495B3D18D}");

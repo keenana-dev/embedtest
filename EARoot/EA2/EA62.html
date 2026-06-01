@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Manage Recruitment (prov, Nat)</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Manage Recruitment (prov, Nat) </h1>
+			<!-- <img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../index.html">Model</a> / <a href="EA82.html">TO-BE Processes</a> / <a href="EA83.html">Human Capital Management</a> / <a href="EA90.html">Manage Recruitment (prov, Nat)</a> / <a href="EA62.html">Manage Recruitment (prov, Nat)</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../images/189.png" alt="Diagram"/> <a href="EA62.html">Manage Recruitment (prov, Nat)</a></li>
+<li><img src="../../images/116.png" alt="ActivityPartition"/> <a href="EA258.html">Applicants</a></li>
+<li><img src="../../images/116.png" alt="ActivityPartition"/> <a href="EA259.html">Line Manager</a></li>
+<li><img src="../../images/116.png" alt="ActivityPartition"/> <a href="EA260.html">WoF Human Capital Management</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA63.png" usemap="#EA63" border="0" />
+
+<MAP NAME="EA63">
+<area shape="rect" coords="174,411,284,471" href="EA270.html" target="_self">
+<area shape="rect" coords="1868,772,1978,832" href="EA282.html" target="_self">
+<area shape="rect" coords="1283,55,1393,115" href="EA294.html" target="_self">
+<area shape="rect" coords="1088,55,1198,115" href="EA295.html" target="_self">
+<area shape="rect" coords="2453,787,2483,817" href="EA285.html" target="_self">
+<area shape="rect" coords="2258,772,2368,832" href="EA284.html" target="_self">
+<area shape="rect" coords="2097,781,2139,823" href="EA283.html" target="_self">
+<area shape="rect" coords="2063,592,2173,652" href="EA276.html" target="_self">
+<area shape="rect" coords="1868,592,1978,652" href="EA274.html" target="_self">
+<area shape="rect" coords="1868,683,1978,743" href="EA269.html" target="_self">
+<area shape="rect" coords="1673,683,1783,743" href="EA268.html" target="_self">
+<area shape="rect" coords="1673,592,1783,652" href="EA275.html" target="_self">
+<area shape="rect" coords="1478,592,1588,652" href="EA273.html" target="_self">
+<area shape="rect" coords="1478,230,1588,290" href="EA264.html" target="_self">
+<area shape="rect" coords="1283,321,1393,381" href="EA280.html" target="_self">
+<area shape="rect" coords="893,501,1003,561" href="EA286.html" target="_self">
+<area shape="rect" coords="732,321,842,381" href="EA279.html" target="_self">
+<area shape="rect" coords="571,411,681,471" href="EA272.html" target="_self">
+<area shape="rect" coords="410,420,452,462" href="EA271.html" target="_self">
+<area shape="rect" coords="376,321,486,381" href="EA278.html" target="_self">
+<area shape="rect" coords="376,230,486,290" href="EA263.html" target="_self">
+<area shape="rect" coords="181,230,291,290" href="EA265.html" target="_self">
+<area shape="rect" coords="66,245,96,275" href="EA267.html" target="_self">
+<area shape="rect" coords="10,10,2512,161" href="EA258.html" target="_self">
+<area shape="rect" coords="30,758,2512,847" href="EA288.html" target="_self">
+<area shape="rect" coords="30,668,2512,758" href="EA293.html" target="_self">
+<area shape="rect" coords="30,577,2512,668" href="EA290.html" target="_self">
+<area shape="rect" coords="30,486,2512,577" href="EA287.html" target="_self">
+<area shape="rect" coords="30,396,2512,486" href="EA292.html" target="_self">
+<area shape="rect" coords="30,306,2512,396" href="EA289.html" target="_self">
+<area shape="rect" coords="10,215,2512,306" href="EA259.html" target="_self">
+<area shape="rect" coords="10,217,2512,847" href="EA260.html" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Manage Recruitment (prov, Nat) : Business Process diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2024/02/29 09:42:14</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">2024/04/08 22:08:29</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">terti</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{55E48A3E-3175-47e7-924A-EF896BCBA927}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Provincial and National staff&lt;br/&gt;</div>
+
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

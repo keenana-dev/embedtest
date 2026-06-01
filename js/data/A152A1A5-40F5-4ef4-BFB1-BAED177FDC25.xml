@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.9.3.2.5.1", "1", "Incident Investigation – Near Miss", "EARoot/EA9/EA3/EA2/EA5/EA1/EA1214.htm", "4.png", "", "", "{B3C4967C-A06B-4a30-9B94-F8370E741867}", "Package");
+tocTab[tocTab.length] = new Array("0.9.3.2.5.2", "1", "Incident Reporting – FireWeb", "EARoot/EA9/EA3/EA2/EA5/EA2/EA1218.htm", "4.png", "", "", "{ADE9F26D-A165-49a2-BE59-28B829C30F1C}", "Package");
+tocTab[tocTab.length] = new Array("0.9.3.2.5.3", "1", "Internal Auditing", "EARoot/EA9/EA3/EA2/EA5/EA3/EA1222.htm", "4.png", "", "", "{2707596B-BA01-4355-8DB9-04854EB1217A}", "Package");
+tocTab[tocTab.length] = new Array("0.9.3.2.5.4", "1", "Reporting - FEM", "EARoot/EA9/EA3/EA2/EA5/EA4/EA1226.htm", "4.png", "", "", "{52EC5DED-F36D-47dc-918D-C63227EE13D1}", "Package");
+tocTab[tocTab.length] = new Array("0.9.3.2.5.5", "1", "Reporting – KPI Input National", "EARoot/EA9/EA3/EA2/EA5/EA5/EA1230.htm", "4.png", "", "", "{FBBC356A-A660-48ad-943F-D301AF7A6ACD}", "Package");
+tocTab[tocTab.length] = new Array("0.9.3.2.5.6", "1", "Reporting – National IOD", "EARoot/EA9/EA3/EA2/EA5/EA6/EA1234.htm", "4.png", "", "", "{9A37CB27-8338-4583-8691-C6ADD0E17D48}", "Package");
+tocTab[tocTab.length] = new Array("0.9.3.2.5.7", "1", "Reporting – Provincial DIFR", "EARoot/EA9/EA3/EA2/EA5/EA7/EA1238.htm", "4.png", "", "", "{D437EB98-E3D4-4ea9-B609-0E0AEB8DE999}", "Package");
+tocTab[tocTab.length] = new Array("0.9.3.2.5.8", "1", "SHE Inspection", "EARoot/EA9/EA3/EA2/EA5/EA8/EA1242.htm", "4.png", "", "", "{AC3F429B-03C4-43e8-938E-A27A2E116411}", "Package");
+tocTab[tocTab.length] = new Array("0.9.3.2.5.9", "1", "Written Safe Work Procedure (WSWP)", "EARoot/EA9/EA3/EA2/EA5/EA9/EA1246.htm", "4.png", "", "", "{D720A47A-9327-4c1e-BF18-CCF5D54DDBE9}", "Package");
+tocTab[tocTab.length] = new Array("0.9.3.2.5.10", "1", "Incident Investigation – General", "EARoot/EA9/EA3/EA2/EA5/EA10/EA1250.htm", "4.png", "", "", "{7D9883F3-56C0-4a23-833B-89D491065585}", "Package");

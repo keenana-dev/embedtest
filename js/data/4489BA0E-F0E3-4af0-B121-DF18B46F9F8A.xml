@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.8.9.1:1", "", "Context", "EARoot/EA8/EA9/EA1/EA4048.html", "178.png", "416", "0", "", "Component diagram0","{A794D441-37A6-4d87-8F44-4AB2C4D2ED4B}");
+tocTab[tocTab.length] = new Array("0.8.9.1:2", "", "Employee", "EARoot/EA8/EA9/EA1/EA4051.html", "10.png", "E3692", "0", "", "Component0","{AD693175-E74E-4eaa-AA75-29E0FF09B704}");
+tocTab[tocTab.length] = new Array("0.8.9.1:3", "", "«entity» Management", "EARoot/EA8/EA9/EA1/EA4052.html", "10.png", "E3690", "0", "", "Component0","{258251FB-9A19-4831-A50F-3C7AEBDEF729}");
+tocTab[tocTab.length] = new Array("0.8.9.1:4", "", "«application» SAGE Performance Module", "EARoot/EA8/EA9/EA1/EA4053.html", "10.png", "E3691", "0", "", "Component0","{6A14546B-8C0E-48cc-BD35-B3D80068F7AF}");
+tocTab[tocTab.length] = new Array("0.8.9.1:5", "", "«entity» Stakeholders ", "EARoot/EA8/EA9/EA1/EA4054.html", "10.png", "E4574", "0", "", "Component0","{9870204F-A587-4c7b-AEEE-079193560C85}");

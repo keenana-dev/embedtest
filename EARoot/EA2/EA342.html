@@ -1,0 +1,452 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Do perfromance review</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Do perfromance review </h1>
+			<!-- <img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../index.html">Model</a> / <a href="EA82.html">TO-BE Processes</a> / <a href="EA83.html">Human Capital Management</a> / <a href="EA89.html">Performance Management</a> / <a href="EA335.html">Performance Management*</a> / <a href="EA338.html">Managementment</a> / <a href="EA342.html">Do perfromance review</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../images/189.png" alt="Diagram"/> <a href="EA46.html">3.3	Do performance review</a></li>
+<li><img src="../../images/116.png" alt="ActivityPartition"/> <a href="EA351.html">Performance Review Panel</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Do perfromance review  : Public  &lt;&lt;Activity&gt;&gt; Activity</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2024/07/01 07:51:43</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">2024/08/28 17:12:16</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">terti</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{25BD5F43-8C5A-46e5-BC96-4CF96B12653D}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA66.html">Performance Management</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">This should include:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Peer to peer feedback&lt;/li&gt;&lt;li&gt;Manager to employee feedback*&lt;/li&gt;&lt;li&gt;Stakeholders/external (360 degree) feedback&lt;/li&gt;&lt;li&gt;Employee Self assessment&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Employees complete their self-assessments and submit to line manager, GM &amp; HRP for manager review / assessment &amp; discussion&lt;br/&gt;&lt;br/&gt;&lt;b&gt;The Performance Review&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Is a summary analysis of performance&lt;/li&gt;&lt;li&gt;Provides an assessment as to whether the staff member met his/her goals&lt;/li&gt;&lt;li&gt;Is an opportunity to provide formal and documented feedback on performance&lt;/li&gt;&lt;li&gt;Is an opportunity to discuss the staff member&#8217;s professional growth and development&lt;/li&gt;&lt;li&gt;Is an opportunity for the team member to provide the supervisor with feedback&lt;/li&gt;&lt;li&gt;May result in a Performance Improvement Plan for the team member if poor performance is&#160;&#160;&#160;identified&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;b&gt;Summary of Mid-Year Performance Review&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Formal process &#8211; 1-on-1 between line manager and team member&lt;/li&gt;&lt;li&gt;Focused discussion on team member&#8217;s performance to date&lt;/li&gt;&lt;li&gt;Opportunity for team member to give and receive feedback and make any adjustments to goals&lt;/li&gt;&lt;li&gt;Open, honest conversation &#8211; no documentation required&lt;/li&gt;&lt;li&gt;Review of goals set and progress made&lt;/li&gt;&lt;li&gt;Note any key behaviours you&#8217;ve observed, e.g. collaboration, project management, innovation, etc.&lt;/li&gt;&lt;li&gt;Check team members&#8217; job satisfaction, morale, understanding of expectations, your management style, team relationship, etc.&lt;/li&gt;&lt;li&gt;Feedback on living the values&lt;/li&gt;&lt;li&gt;Summary of review must be captured on HRIS&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;b&gt;Rating Matrix&lt;/b&gt;&lt;br/&gt;&lt;b&gt;Excellent or Far Exceeding Expectation or 5&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Employee consistently demonstrated outstanding performance / performed at a level far above what is expected in this position&lt;/li&gt;&lt;li&gt;Results far exceeded expectations in all areas&lt;/li&gt;&lt;li&gt;Significant contributions were made to achieving WOF&#8217;s business objectives&lt;/li&gt;&lt;li&gt;Models organisation&#8217;s values&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;b&gt;Very Good or Exceeds Expectation or 4&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Employee often performed at a higher level than expected in this position&lt;/li&gt;&lt;li&gt;Results exceeded expectations in some or all areas&lt;/li&gt;&lt;li&gt;Models organisation&#8217;s values&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;b&gt;Good &#8211;&#160;&#160;Meets Expectation or 3&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Employee always performed at the level expected of this position&lt;/li&gt;&lt;li&gt;Results met expectations in all areas&lt;/li&gt;&lt;li&gt;Models most of the organisation&#8217;s values&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;b&gt;Satisfactory &#8211; Partially Met Expectation or 2&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Results met expectations in some areas&lt;/li&gt;&lt;li&gt;Work sometimes needed to be redone/ be done by others / was late&lt;/li&gt;&lt;li&gt;Does not model some of the organisation&#8217;s values&lt;/li&gt;&lt;li&gt;Employee must be put on a Performance Improvement Plan (PIP)&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;b&gt;Needs Improvement &#8211; Did Not Meet Expectation or 1&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Employee consistently performed below the level expected of this position&lt;/li&gt;&lt;li&gt;Results fell below expectations in some or all areas&lt;/li&gt;&lt;li&gt;Work frequently needed to be redone / done by others / was late&lt;/li&gt;&lt;li&gt;Does not model any of the organisation&#8217;s values&lt;/li&gt;&lt;li&gt;Employee must be put on a Performance Improvement Plan (PIP)&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;b&gt;Competency Assessments&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Based on the current strategic objectives of expansion in terms of programme solutions to address youth unemployment, diversifying funding streams, advancing our knowledge and abilities and improving organisational competency, it is clear that there is a need to ensure capacity building of current or existing personnel in order to realize their full potential and improve performance. Fundamental to capacity building is capacity assessment which will be conducted through competency assessments.&#160;&#160;&lt;br/&gt;&lt;br/&gt;All new employees upon completion of probation must undergo the competency assessment in order to identify competencies that require development which will in turn form part of the organisation&#8217;s training needs. For existing employees, line management may conduct a competency assessment which may be used to inform an employee&#8217;s professional development plan. &lt;br/&gt;&lt;br/&gt;The competency assessment will entail a self-assessment and the manager&#8217;s assessment using a 5 rating key.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Proficiency: Characteristics&lt;/b&gt;&lt;br/&gt;&lt;ol&gt;<br />&lt;li&gt;Basic: Demonstrates introductory knowledge and ability in this competency; with guidance, applies the competency in a few, simple situations; focus is on learning.&lt;/li&gt;&lt;li&gt;Developing: Is developing knowledge and ability in this competency; with guidance, can apply the competency in common situations that present limited difficulties; experience gained through classroom and/or on-the-job scenarios; understands and can discuss terminology and concepts; focus is on developing experience.&lt;/li&gt;&lt;li&gt;Proficient: Demonstrates solid knowledge and ability, and can apply the competency, with minimal or no guidance, in the full range of typical situations; would require guidance to handle novel or more complex situations; capable of presenting process or practice improvements; focus is on broad organizational issues.&lt;/li&gt;&lt;li&gt;Advanced: Demonstrates advanced knowledge and ability, and can apply the competency in new or complex situations; capable of coaching others; recognized as &#8220;person to ask&#8221; when difficult issues arise; able to translate complex nuances of competency; participates in senior level discussions; focus is on short-term strategy.&lt;/li&gt;&lt;li&gt;Expert: Demonstrates expert knowledge and ability, and can apply the competency in the most complex situations; develops new approaches, methods or policies in the area; is recognized as an &#8220;expert&#8221;, internally and/or externally; demonstrates consistent excellence in applying competency; sets the standard for the competency; anticipates issues and identifies trends; focus is on long-term strategy.&lt;/li&gt;&lt;/ol&gt;<br />&lt;br/&gt;&lt;b&gt;Some capacity assessment activities will include:&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Using performance management as a methodology to assess competencies and using information gathered in competency assessments to inform individual development goals.&lt;/li&gt;&lt;li&gt;Working with line management to determine required job specific knowledge, skills, abilities and competencies for each position. &lt;/li&gt;&lt;li&gt;Using competency assessments as a tool to assess employee&#8217;s capacity relative to the job specific knowledge, skills, abilities and competencies for each position.&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('FlowTo') : toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent != null ? parent.toggleItem('FlowFrom') : toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent != null ? parent.toggleItem('TaggedVal') : toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+		</ul>
+		<div class="ItemBody" id="FlowToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA341.html">Create performance review report</a><br />
+						Activity «SequenceFlow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow3358" /></button>Details:
+							<div id="detailsDIVLinkFlow3358" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="FlowFromTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA344.html">Send performance Management reminders</a><br />
+						Activity «SequenceFlow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow3359" /></button>Details:
+							<div id="detailsDIVLinkFlow3359" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">activityType</td>
+				<td width="50%" class="TableRow" valign="top">Task</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: Task,Sub-Process<br />Default: Task<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">adHoc</td>
+				<td width="50%" class="TableRow" valign="top">false</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">adHocOrdering</td>
+				<td width="50%" class="TableRow" valign="top">Parallel</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: Parallel,Sequential<br />Default: Parallel<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">behavior</td>
+				<td width="50%" class="TableRow" valign="top">All</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: None,One,All,Complex<br />Default: All<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">cancelRemainingInstances</td>
+				<td width="50%" class="TableRow" valign="top">true</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: true,false<br />Default: true<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">completionQuantity</td>
+				<td width="50%" class="TableRow" valign="top">1</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Default: 1<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">implementation</td>
+				<td width="50%" class="TableRow" valign="top">##unspecified</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: ##webService,##unspecified<br />Default: ##unspecified<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">instantiate</td>
+				<td width="50%" class="TableRow" valign="top">false</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">isACalledActivity</td>
+				<td width="50%" class="TableRow" valign="top">false</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">isATransaction</td>
+				<td width="50%" class="TableRow" valign="top">false</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">isForCompensation</td>
+				<td width="50%" class="TableRow" valign="top">false</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">isSequential</td>
+				<td width="50%" class="TableRow" valign="top">false</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">loopCharacteristics</td>
+				<td width="50%" class="TableRow" valign="top">None</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: None,Standard,MultiInstance<br />Default: None<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">startQuantity</td>
+				<td width="50%" class="TableRow" valign="top">1</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Default: 1<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">state</td>
+				<td width="50%" class="TableRow" valign="top">None</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: None,Ready,Active,Cancelled,Aborting,Aborted,Completing,Completed<br />Default: None<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">taskType</td>
+				<td width="50%" class="TableRow" valign="top">User</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: BusinessRule,Manual,Receive,Service,Send,Script,User,Abstract<br />Default: Abstract<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">testBefore</td>
+				<td width="50%" class="TableRow" valign="top">false</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br /></div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">triggeredByEvent</td>
+				<td width="50%" class="TableRow" valign="top">false</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br /></div>
+
+				</td>
+			</tr>
+	</table>
+</div>		<div class="ItemBody" id="CustomPropertiesTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">_tagGroupings:</td>
+				<td width="70%" class="TableRow">auditing=Base Element;categoryValue=Base Element;documentation=Base Element;monitoring=Base Element;activityType=Activity;calledActivityRef=Activity;instantiate=Activity;isACalledActivity=Activity;isATransaction=Activity;isForCompensation=Activity;resources=Activity;messageRef=Task;operationRef=Task;rendering=Task;script=Task;scriptFormat=Task;taskType=Task;adHoc=AdHoc;adHocOrdering=AdHoc;cancelRemainingInstances=AdHoc;completionCondition=AdHoc;behavior=Loop;complexBehaviorDefinition=Loop;isSequential=Loop;loopCardinality=Loop;loopCharacteristics=Loop;loopCondition=Loop;loopCounter=Loop;loopDataInputRef=Loop;loopDataOutputRef=Loop;loopMaximum=Loop;noneBehaviorEventRef=Loop;oneBehaviorEventRef=Loop;testBefore=Loop;transactionMethod=Sub-Process;transactionProtocol=Sub-Process;triggeredByEvent=Sub-Process;ioBinding=Callable Element;ioSpecification=Callable Element;supportedInterfaceRefs=Callable Element;actualOwner=Execution;completionQuantity=Execution;implementation=Execution;numberOfActiveInstances=Execution;numberOfCompletedInstances=Execution;numberOfInstances=Execution;numberOfTerminatedInstances=Execution;startQuantity=Execution;state=Execution;taskPriority=Execution;assignments=Other;sub-ProcessRef=Other;definitionalCollaborationRef=Sub-Process;</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">_tagGroups:</td>
+				<td width="70%" class="TableRow">Base Element,Activity,Task,AdHoc,Loop,Sub-Process,Callable Element,Execution,Other</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">_subtypeProperty:</td>
+				<td width="70%" class="TableRow">BPMN2.0::Activity::taskType</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">_tagGroupStates:</td>
+				<td width="70%" class="TableRow">Base Element=closed;Activity=open;Task=open;AdHoc=closed;Loop=closed;Sub-Process=closed;Callable Element=closed;Execution=closed;Other=closed;</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">_defaultDiagramType:</td>
+				<td width="70%" class="TableRow">BPMN2.0::Business Process</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isReadOnly:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

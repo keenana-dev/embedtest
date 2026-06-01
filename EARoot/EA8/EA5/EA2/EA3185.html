@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Manage Contract</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Manage Contract </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.html">Model</a> / <a href="../../EA2649.html">In progress Work</a> / <a href="../EA3151.html">SCM & FInanace BRS</a> / <a href="EA3201.html">Processes</a> / <a href="EA3202.html">Manage Contract</a> / <a href="EA3185.html">Manage Contract</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/189.png" alt="Diagram"/> <a href="EA3185.html">Manage Contract</a></li>
+<li><img src="../../../../images/116.png" alt="ActivityPartition"/> <a href="EA3445.html">SCM & Finance Department</a></li>
+<li><img src="../../../../images/116.png" alt="ActivityPartition"/> <a href="EA3446.html">Service Provider</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA3186.png" usemap="#EA3186" border="0" />
+
+<MAP NAME="EA3186">
+<area shape="rect" coords="1457,127,1487,157" href="EA3454.html" target="_self">
+<area shape="rect" coords="1416,25,1526,85" href="EA3457.html" target="_self">
+<area shape="rect" coords="1339,40,1369,70" href="EA3450.html" target="_self">
+<area shape="rect" coords="1182,112,1292,172" href="EA3453.html" target="_self">
+<area shape="rect" coords="1182,25,1292,85" href="EA3456.html" target="_self">
+<area shape="rect" coords="1093,34,1135,76" href="EA3458.html" target="_self">
+<area shape="rect" coords="936,25,1046,85" href="EA3451.html" target="_self">
+<area shape="rect" coords="620,298,735,353" href="EA3444.html" target="_self">
+<area shape="rect" coords="936,295,1046,355" href="EA3466.html" target="_self">
+<area shape="rect" coords="779,295,889,355" href="EA3465.html" target="_self">
+<area shape="rect" coords="779,205,889,265" href="EA3463.html" target="_self">
+<area shape="rect" coords="622,205,732,265" href="EA3460.html" target="_self">
+<area shape="rect" coords="465,205,575,265" href="EA3462.html" target="_self">
+<area shape="rect" coords="308,447,418,507" href="EA3464.html" target="_self">
+<area shape="rect" coords="308,205,418,265" href="EA3459.html" target="_self">
+<area shape="rect" coords="151,205,261,265" href="EA3461.html" target="_self">
+<area shape="rect" coords="151,25,261,85" href="EA3452.html" target="_self">
+<area shape="rect" coords="74,40,104,70" href="EA3455.html" target="_self">
+<area shape="rect" coords="30,280,1558,370" href="EA3447.html" target="_self">
+<area shape="rect" coords="10,402,1558,552" href="EA3446.html" target="_self">
+<area shape="rect" coords="30,190,1558,280" href="EA3448.html" target="_self">
+<area shape="rect" coords="30,10,1558,190" href="EA3449.html" target="_self">
+<area shape="rect" coords="10,10,1558,370" href="EA3445.html" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Manage Contract : Business Process diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2026/03/23 07:02:19</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">2026/03/23 07:58:10</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">terti</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{1C365194-137D-42db-9757-67D41695FACB}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

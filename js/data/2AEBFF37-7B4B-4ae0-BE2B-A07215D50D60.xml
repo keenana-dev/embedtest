@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.1", "1", "Strategy", "EARoot/EA1/EA1.html", "31.png", "", "", "{E122AB5B-A104-4511-8092-ECE89BE436A4}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "TO-BE Processes", "EARoot/EA2/EA82.html", "31.png", "", "", "{DD942CA2-2E63-4210-BD42-650B0F9CAC44}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "AS-IS Process", "EARoot/EA3/EA703.html", "31.png", "", "", "{78966941-908E-47d6-8C6D-C19DA36F1CFA}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "People", "EARoot/EA4/EA2454.html", "31.png", "", "", "{1C34B364-A3B5-49eb-B36E-00F71B2C600F}", "Package");
+tocTab[tocTab.length] = new Array("0.5", "1", "Software", "EARoot/EA5/EA2604.html", "31.png", "", "", "{EE1F8FD1-88C3-4131-AABA-A4A803F19A2B}", "Package");
+tocTab[tocTab.length] = new Array("0.6", "1", "Information", "EARoot/EA6/EA2617.html", "31.png", "", "", "{EF877138-24A7-46d4-87C7-6114F2BB65F1}", "Package");
+tocTab[tocTab.length] = new Array("0.7", "1", "Hardware", "EARoot/EA7/EA2629.html", "31.png", "", "", "{3BBF4781-A9DC-448d-943D-A5A6E01B5A6E}", "Package");
+tocTab[tocTab.length] = new Array("0.8", "1", "In progress Work", "EARoot/EA8/EA2649.html", "31.png", "", "", "{CB758369-C61C-48cc-9222-E38B5E30CEF5}", "Package");
+tocTab[tocTab.length] = new Array("0.9", "1", "Old/Unused", "EARoot/EA9/EA4830.html", "4.png", "", "", "{1EF4DECF-06AF-496f-950D-9D848433E9B4}", "Package");
