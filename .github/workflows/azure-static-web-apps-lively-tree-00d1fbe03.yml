@@ -20,10 +20,10 @@ jobs:
           submodules: true
           lfs: false
 
-      - name: Prepare deploy folder (exclude EARoot)
+      - name: Prepare deploy folder
         run: |
           mkdir deploy_output
-          rsync -av --exclude='EARoot' --exclude='.github' --exclude='deploy_output' ./ deploy_output/
+          rsync -av --exclude='.github' --exclude='deploy_output' ./ deploy_output/
 
       - name: Build And Deploy
         id: builddeploy
